@@ -1,72 +1,69 @@
 # dorkhunter
-DorkHunter is a powerful Google Dork automation tool designed for security researchers and bug bounty hunters. It allows users to discover publicly exposed sensitive files, directories, configurations, backups, login pages, and much more across any target website using curated Google Dorks.  Created by Ali Mrad, Bug Bounty Hunter
-✨ Features
+DorkHunter is a powerful Google Dork automation tool designed for security researchers and bug bounty hunters. It allows users to discover publicly exposed sensitive files, directories, configurations, backups, login pages, and much more across any target website using curated Google Dorks.  
+**Created by Ali Mrad, Bug Bounty Hunter**
 
-Easy-to-use terminal interface
+**✨ Features**
 
-Multiple Google Dork presets (WordPress, SQL Errors, Public Documents, Config Files, etc.)
-
+Easy-to-use terminal interface Multiple Google Dork presets (WordPress, SQL Errors, Public Documents, Config Files, etc.)
 User-input for target site
-
 Automatically scrapes all result pages
-
 Saves found links to results.txt
 
-📁 Installation
+
+
+**📁 Installation**
 
 Clone the repository:
+`git clone https://github.com/yourusername/BugDorker.git`
 
-git clone https://github.com/yourusername/BugDorker.git
-cd BugDorker
+`cd BugDorker`
 
 Install dependencies:
-
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Get a SerpAPI Key:
-
-Go to: https://serpapi.com/users/sign_up
-
+Go to: **`https://serpapi.com/users/sign_up`**
 Sign up and verify your email
-
 Copy your API key from your dashboard
 
-Configure your API key:
+Configure your API key to the code:
 
-Create a .env file in the project folder:
+**Line 13 in the code: API_KEY = "UR API KEY HERE"**
 
-echo "SERPAPI_KEY=your_api_key_here" > .env
 
-💻 Usage
 
-python bugdorker.py
+**💻 Usage**
 
-Enter the domain or site (e.g., recreation.gov or target.com)
+**`python bugdorker.py`**
 
-Choose one of the dork categories
+Enter the domain or site (e.g., target.com)
+
+Choose one of the dork categories (Number)
 
 The tool will collect and save all found links to results.txt
 
-📊 Dork Categories
 
-Directory Listing Vulnerabilities
 
-Exposed Configuration Files
+**📊 Dork Categories**
 
-Exposed Database Files
+**1) Directory Listing Vulnerabilities**
 
-WordPress Installation Info
+**2) Exposed Configuration Files**
 
-Exposed Log Files
+**3) Exposed Database Files**
 
-Backup & Old Files
+**4) WordPress Installation Info**
 
-Login Pages
+**5) Exposed Log Files**
 
-SQL Error Messages
+**6) Backup & Old Files**
 
-Publicly Exposed Documents
+**7) Login Pages**
 
-Employees on LinkedIn
+**8) SQL Error Messages**
 
-Subdomain Finder
+**9) Publicly Exposed Documents**
+
+**10) Employees on LinkedIn**
+
+**11) Subdomain Finder**
