@@ -14,9 +14,9 @@ Saves found links to results.txt
 **📁 Installation**
 
 Clone the repository:
-`git clone https://github.com/yourusername/BugDorker.git`
+`git clone https://github.com/alimrad-dev/dorkhunter.git`
 
-`cd BugDorker`
+`cd dorkhunter`
 
 Install dependencies:
 `pip install -r requirements.txt`
